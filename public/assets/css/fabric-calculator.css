@@ -1,0 +1,144 @@
+/*#wcofua-fabric-calculator {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+#wcofua-fabric-calculator-form label {
+    display: block;
+    margin-top: 10px;
+}
+
+#wcofua-fabric-calculator-form input {
+    width: 100%;
+    padding: 5px;
+    margin-top: 5px;
+    box-sizing: border-box;
+}
+
+#wcofua-fabric-calculator-form button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #0073aa;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#wcofua-fabric-calculator-form button:hover {
+    background-color: #005177;
+}
+
+.wcofua-fabric-piece {
+    background-color: lightgray;
+}*/
+
+
+.fabric-calculator-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading Styling */
+.fabric-calculator-heading {
+  text-align: center;
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Form Styling */
+.fabric-calculator-form {
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: 600;
+  color: #333;
+}
+
+.form-input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+.form-button {
+  width: 100%;
+  padding: 10px;
+  background-color: #0073e6;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.form-button:hover {
+  background-color: #005bb5;
+}
+
+/* Result Section Styling */
+.fabric-calculator-result {
+  margin-top: 20px;
+  padding: 15px;
+  background-color: #fff;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+}
+
+.result-heading {
+  font-size: 20px;
+  color: #0073e6;
+  margin-bottom: 10px;
+}
+
+.result-text {
+  font-size: 16px;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.fabric-preview {
+  width: 100%;
+  border-radius: 4px;
+}
+
+/* Responsive Design */
+@media (max-width: 480px) {
+  .fabric-calculator-container {
+    padding: 15px;
+  }
+
+  .fabric-calculator-heading {
+    font-size: 20px;
+  }
+
+  .form-label, .result-heading {
+    font-size: 14px;
+  }
+
+  .form-input, .result-text {
+    font-size: 14px;
+    padding: 7px;
+  }
+
+  .form-button {
+    font-size: 14px;
+    padding: 8px;
+  }
+}
