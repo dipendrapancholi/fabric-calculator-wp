@@ -39,7 +39,8 @@ class Wp_Fabcal_Admin {
 			__( 'Fabric Calculator', 'fabric-calculator-wp' ),
 			'manage_options',
 			'wpfabcal-settings',
-			[$this, 'wpfabcal_fabric_calculator_settings_page']
+			[$this, 'wpfabcal_fabric_calculator_settings_page'],
+			'dashicons-screenoptions'
 	    );
 	}
 
