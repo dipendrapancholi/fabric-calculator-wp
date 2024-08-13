@@ -156,6 +156,13 @@ class Wp_Fabcal_Admin {
 	                    </td>
 	                </tr>
 
+					<tr>
+	                    <th scope="row" colspan="2">
+	                    	<label><?php esc_html_e( "Simply use the shortcode `[fabric_calculator]` on your page or post. You can customize the form using the available parameters, or set default values in the plugin's settings.", 'fabric-calculator-wp') ?></label>
+							<br /><code><?php esc_html_e( '[fabric_calculator heading="Fabric Cutting Calculator" material_width="150" material_height="300" piece_width="30" piece_height="40" measurement="cm"]', 'fabric-calculator-wp') ?></code>
+	                    </th>
+	                </tr>
+
 	                
 	            </table>
 	            
